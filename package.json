@@ -6,5 +6,20 @@
     "docs:dev": "vitepress dev",
     "docs:build": "vitepress build",
     "docs:preview": "vitepress preview"
-  }
+  },
+  "name": "knowledge-map",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AhhhhhChiu/knowledge-map.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AhhhhhChiu/knowledge-map/issues"
+  },
+  "homepage": "https://github.com/AhhhhhChiu/knowledge-map#readme",
+  "description": ""
 }
