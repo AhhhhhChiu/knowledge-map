@@ -9,15 +9,15 @@ export default defineConfig({
     // https://vitepress.dev/reference/default-theme-config
     nav: [
       { text: 'Home', link: '/' },
-      { text: 'Examples', link: '/markdown-examples' }
+      { text: 'Network', link: '/network/index' },
     ],
 
     sidebar: [
       {
-        text: 'Examples',
+        text: 'Network',
         items: [
-          { text: 'Markdown Examples', link: '/markdown-examples' },
-          { text: 'Runtime API Examples', link: '/api-examples' }
+          { text: 'Application Layer', link: '/network/application-layer/index' },
+          { text: 'Transport Layer', link: '/network/transport-layer/index' }
         ]
       }
     ],
